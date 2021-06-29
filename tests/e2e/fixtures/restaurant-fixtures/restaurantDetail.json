@@ -1,0 +1,13 @@
+{
+  "restaurantId": 3,
+  "ownerId": 3,
+  "numberOfReviews": 1,
+  "averageRating": 3.0,
+  "imageLink": "/api/v1/images/8f2d1adb-e6ab-467a-ead8-32b34cd41b03",
+  "hasCurrentUserReviewed": false,
+  "name": "Marvel Bar",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula tincidunt aliquet. Nunc porta magna id erat egestas, sed vulputate erat ullamcorper. Aliquam quis leo volutpat, interdum velit bibendum, porta nisl. Praesent at libero eu mi egestas vulputate. Nam sit amet tortor congue, volutpat nisi at, euismod enim. Fusce auctor nisi sed ante rhoncus auctor. Vestibulum euismod nulla sapien, eleifend molestie libero feugiat et. Nulla a ex non enim tincidunt posuere.",
+  "websiteUrl": "https://marvel-bar.com",
+  "contactPhone": "687687687",
+  "address": "Avengers street 123"
+}

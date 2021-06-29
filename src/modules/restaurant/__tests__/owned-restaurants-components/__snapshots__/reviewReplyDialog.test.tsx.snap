@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewReplyDialog basic example 1`] = `
+.c0 {
+  margin: 32px;
+}
+
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-outlined c0 MuiButton-outlinedPrimary"
+  data-cy="review-reply-dialog-open"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    component.review-pending-reply-dialog.click-reply
+  </span>
+</button>
+`;

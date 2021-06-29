@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantDetailDescription basic example 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <div
+    className="MuiAvatar-root WithStyles(ForwardRef(Avatar))-root-1 MuiAvatar-square"
+    style={
+      Object {
+        "cursor": "",
+        "height": "100%",
+        "maxHeight": "250px",
+        "maxWidth": "250px",
+      }
+    }
+  >
+    <img
+      className="MuiAvatar-img"
+      src="https://jest:9999/imageLink"
+    />
+  </div>
+  <div
+    className="MuiCardContent-root"
+  >
+    <h1
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      component.restaurant-detail-description.title
+    </h1>
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      description
+    </p>
+  </div>
+</div>
+`;

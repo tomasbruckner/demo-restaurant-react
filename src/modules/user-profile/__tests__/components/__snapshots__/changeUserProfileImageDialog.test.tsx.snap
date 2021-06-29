@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfileImage basic example 1`] = `
+.c0 {
+  max-height: 150px;
+  max-width: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="MuiAvatar-root WithStyles(ForwardRef(Avatar))-root-1 MuiAvatar-circle"
+    onClick={[Function]}
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <img
+      className="MuiAvatar-img"
+      src="https://jest:9999/link"
+    />
+  </div>
+  <div />
+</div>
+`;

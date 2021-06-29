@@ -1,0 +1,136 @@
+{
+  "name": "tomas-project",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/enzyme": "^3.10.6",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.56",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-test-renderer": "^16.9.3",
+    "axios": "^0.19.2",
+    "cross-env": "^7.0.2",
+    "date-fns": "^2.16.1",
+    "fontsource-roboto": "^3.0.3",
+    "history": "^5.0.0",
+    "husky": "^4.3.0",
+    "i18next": "^19.7.0",
+    "i18next-xhr-backend": "^3.2.2",
+    "jest-styled-components": "^7.0.3",
+    "lint-staged": "^10.3.0",
+    "material-table": "^1.69.0",
+    "prettier": "^2.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.0",
+    "react-i18next": "^11.7.2",
+    "react-icons": "^3.11.0",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.4.3",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.2.0",
+    "typescript": "^3.7.5",
+    "ua-parser-js": "^0.7.22"
+  },
+  "scripts": {
+    "lint": "eslint src --max-warnings 0 --ext tsx --ext ts",
+    "lint:fix": "eslint src --fix",
+    "cypress:open": "cross-env NODE_PATH=src NODE_ENV=development CYPRESS_RETRIES=0 cypress open",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:unit": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "generate:license": "license-checker --summary > public/license/license_summary.txt && license-checker --relativeLicensePath --customPath .license-checker.json > public/license/license_full.txt",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@cypress/code-coverage": "^3.8.1",
+    "@cypress/webpack-preprocessor": "^5.4.5",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/node-logger": "^6.0.21",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^6.0.21",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-router-redux": "^5.0.18",
+    "@types/styled-components": "^5.1.3",
+    "@types/ua-parser-js": "^0.7.33",
+    "babel-loader": "^8.1.0",
+    "cypress": "^5.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "enzyme-to-json": "^3.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "license-checker": "^25.0.1",
+    "react-is": "^16.13.1",
+    "serve": "^11.3.2",
+    "start-server-and-test": "^1.11.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "jira-prepare-commit-msg"
+    }
+  },
+  "jira-prepare-commit-msg": {
+    "messagePattern": "[$J] $M",
+    "jiraTicketPattern": "([a-zA-Z]+-\\d+)"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ],
+    "tests/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid"
+  },
+  "babelMacros": {
+    "styledComponents": {
+      "pure": true
+    }
+  }
+}

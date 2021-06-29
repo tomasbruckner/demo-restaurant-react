@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTable basic example 1`] = `
+<Fragment>
+  <WithStyles(Component)
+    columns={
+      Array [
+        Object {
+          "field": "userId",
+          "hidden": true,
+          "title": "",
+        },
+        Object {
+          "field": "lastName",
+          "title": "page.user-management.table.columns.last-name",
+        },
+        Object {
+          "field": "firstName",
+          "title": "page.user-management.table.columns.first-name",
+        },
+        Object {
+          "editable": "never",
+          "field": "email",
+          "title": "page.user-management.table.columns.email",
+        },
+        Object {
+          "field": "roleId",
+          "lookup": Object {
+            "1": "enum.role.admin",
+            "2": "enum.role.owner",
+            "3": "enum.role.user",
+          },
+          "title": "page.user-management.table.columns.role",
+        },
+      ]
+    }
+    data={[Function]}
+    editable={
+      Object {
+        "onRowDelete": [Function],
+        "onRowUpdate": [Function],
+      }
+    }
+    icons={
+      Object {
+        "Add": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Check": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Clear": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Delete": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "DetailPanel": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Edit": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Export": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Filter": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "FirstPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "LastPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "NextPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "PreviousPage": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "ResetSearch": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "Search": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "SortArrow": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "ThirdStateCheck": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "ViewColumn": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+      }
+    }
+    options={
+      Object {
+        "draggable": false,
+        "filtering": true,
+        "pageSize": 10,
+        "search": false,
+        "showTitle": false,
+      }
+    }
+  />
+</Fragment>
+`;

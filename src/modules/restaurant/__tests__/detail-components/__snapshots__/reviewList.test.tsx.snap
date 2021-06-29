@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewList basic example 1`] = `
+<h5
+  className="MuiTypography-root WithStyles(ForwardRef(Typography))-root-1 MuiTypography-h5"
+>
+  <i>
+    page.restaurant-detail.no-reviews
+  </i>
+</h5>
+`;

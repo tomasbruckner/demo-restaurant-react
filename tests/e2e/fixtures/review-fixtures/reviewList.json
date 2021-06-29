@@ -1,0 +1,67 @@
+{
+  "size": 3,
+  "data": [
+    {
+      "reviewId": 8,
+      "reviewRatingId": 3,
+      "owner": {
+        "userId": 5,
+        "firstName": "Tomas",
+        "lastName": "Owner2",
+        "imageLink": "/api/v1/images/e5fe0a7f-640a-9fca-d3c5-498c36d0500b"
+      },
+      "restaurantId": 3,
+      "ownerResponse": null,
+      "hasOwnerResponse": false,
+      "title": "Decent bar but pricey",
+      "text": "It was a little bit pricey for the value.",
+      "created": "2020-09-24T17:48:55.315973",
+      "dateOfVisit": "2020-09-24T11:00:00",
+      "restaurantName": "Marvel Bar"
+    },
+    {
+      "reviewId": 7,
+      "reviewRatingId": 4,
+      "owner": {
+        "userId": 5,
+        "firstName": "Tomas",
+        "lastName": "Owner2",
+        "imageLink": "/api/v1/images/e5fe0a7f-640a-9fca-d3c5-498c36d0500b"
+      },
+      "restaurantId": 1,
+      "ownerResponse": null,
+      "hasOwnerResponse": false,
+      "title": "Great experience in Unknown Bar",
+      "text": "We had a blast at Unknown Bar. Lots of fun and a great atmosphere!",
+      "created": "2020-09-24T17:42:58.952895",
+      "dateOfVisit": "2020-09-24T11:00:00",
+      "restaurantName": "Unknown Bar"
+    },
+    {
+      "reviewId": 3,
+      "reviewRatingId": 5,
+      "owner": {
+        "userId": 4,
+        "firstName": "Tomas",
+        "lastName": "Admin",
+        "imageLink": "/api/v1/images/cdd866b4-2b39-a343-3db6-60cf0901bcf2"
+      },
+      "restaurantId": 1,
+      "ownerResponse": {
+        "reviewReplyId": 2,
+        "reviewId": 3,
+        "creatorId": 3,
+        "created": "2020-09-24T17:34:52.329219",
+        "updated": "2020-09-24T20:05:08.48476",
+        "text": "Thank you very much!!!"
+      },
+      "hasOwnerResponse": true,
+      "title": "Best Chicken in Town!",
+      "text": "I had the best chicken Supreme in my life! Highly recommended!",
+      "created": "2020-09-24T16:48:57.439346",
+      "dateOfVisit": "2020-09-24T11:00:00",
+      "restaurantName": "Unknown Bar"
+    }
+  ],
+  "status": "ok"
+}

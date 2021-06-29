@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form basic example 1`] = `
+.c0 {
+  max-width: 500px;
+}
+
+<form
+  className="c0"
+  id="styledFormId"
+  onSubmit={[Function]}
+/>
+`;

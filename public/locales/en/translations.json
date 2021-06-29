@@ -1,0 +1,211 @@
+{
+  "page": {
+    "not-allowed": {
+      "title": "You are not allowed"
+    },
+    "not-found": {
+      "title": "Page not found"
+    },
+    "home": {
+      "title": "Home"
+    },
+    "error": {
+      "title": "something went wrong"
+    },
+    "login": {
+      "title": "Login",
+      "text": {
+        "welcome": "Welcome to Restaurant Review",
+        "best": "Find the best restaurants in your area."
+      },
+      "form": {
+        "labels": {
+          "email": "Email",
+          "password": "Password"
+        },
+        "buttons": {
+          "register": "Create New Account",
+          "sign-in": "Log In"
+        }
+      },
+      "errors": {
+        "login": "Email or password is not valid"
+      }
+    },
+    "sign-up": {
+      "title": "Sign Up",
+      "text": {
+        "h1": "Sign Up",
+        "h2": "It's quick and easy.",
+        "free-account": "Sign up for free account"
+      },
+      "form": {
+        "labels": {
+          "first-name": "First name",
+          "last-name": "Last name",
+          "email": "Email",
+          "password": "Password"
+        },
+        "buttons": {
+          "sign-up": "Sign Up"
+        }
+      },
+      "errors": {
+        "email-exists": "Email already exists"
+      }
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "no-restaurants": "There are no restaurants yet!"
+    },
+    "owned-restaurants": {
+      "title": "Owned Restaurants",
+      "no-restaurants": "There are no restaurants yet!",
+      "buttons": {
+        "add": "Restaurant"
+      }
+    },
+    "restaurant-detail": {
+      "review-title": "Reviews ({{numberOfReviews}})",
+      "no-reviews": "There are no reviews yet. Be the first to add one!"
+    },
+    "user-profile": {
+      "title": "User Profile",
+      "last-reviews": "Last Reviews",
+      "no-reviews": "There are no reviews yet!"
+    },
+    "user-management": {
+      "title": "User Management",
+      "table": {
+        "columns": {
+          "actions": "Actions",
+          "first-name": "First Name",
+          "last-name": "Last Name",
+          "email": "Email",
+          "role": "Role"
+        },
+        "tooltips": {
+          "edit": "Edit user",
+          "delete": "Remove user"
+        }
+      },
+      "dialogs": {
+        "delete": {
+          "title": "Delete {{user}}",
+          "text": "Are you sure you want to delete {{user}}?",
+          "submit-button": "Confirm",
+          "cancel-button": "Cancel"
+        }
+      }
+    }
+  },
+  "component": {
+    "navigation": {
+      "search": "Search...",
+      "home": "Tomas Review Restaurant",
+      "links": {
+        "restaurants": "Restaurants",
+        "owned-restaurants": "Owned Restaurants",
+        "users": "Users"
+      },
+      "menu": {
+        "logout": "Log Out",
+        "profile": "Profile"
+      }
+    },
+    "restaurant-item": {
+      "reviews": "{{numberOfReviews}} reviews"
+    },
+    "owned-restaurant-item": {
+      "pending": "Reviews waiting for your reply",
+      "no-pending": "There are no reviews without reply"
+    },
+    "review-pending-reply": {
+      "review-date": "Reviewed at {{reviewDate}}"
+    },
+    "review-pending-reply-dialog": {
+      "title": "Review Reply",
+      "submit": "Send",
+      "reply": "Reply",
+      "cancel": "Discard",
+      "click-reply": "Click to reply"
+    },
+    "restaurant-add-dialog": {
+      "title": "Add Restaurant",
+      "name": "Name",
+      "website-url": "Website URL",
+      "description": "Description",
+      "phone": "Contact Phone",
+      "submit": "Confirm",
+      "cancel": "Discard",
+      "address": "Address",
+      "error-conflict": "Restaurant name already exists"
+    },
+    "restaurant-detail-description": {
+      "title": "Restaurant Description",
+      "image-title": "Restaurant Image"
+    },
+    "restaurant-detail-header": {
+      "delete-title": "Delete Restaurant",
+      "delete-text": "Are you sure you want delete {{name}}?"
+    },
+    "review-detail": {
+      "date-of-visit": "<strong>Date of visit:</strong> {{date}}",
+      "reviewer-positive": "<strong>{{user}} </strong>  wrote the best review",
+      "reviewer-negative": "<strong>{{user}} </strong>  wrote the worst review",
+      "reviewer": "<strong>{{user}} </strong>  wrote the review",
+      "missing-positive": "There is no review yet",
+      "missing-negative": "There is no review yet"
+    },
+    "owner-response": {
+      "title": "Owner's response",
+      "delete-text": "Are you sure you want to delete the owner's reply?",
+      "delete-title": "Delete Owner's Reply"
+    },
+    "add-review-dialog": {
+      "buttons": {
+        "add": "Review"
+      },
+      "title": "Add Review",
+      "review-title": "Review Title",
+      "date-of-visit": "Date of Visit",
+      "review": "Review",
+      "submit": "Confirm",
+      "cancel": "Discard"
+    },
+    "user-intro": {
+      "title": "Intro",
+      "joined": "Joined in {{date}}",
+      "role-1": "Role Admin",
+      "role-2": "Role Owner",
+      "role-3": "Role User"
+    },
+    "restaurant-filter": {
+      "rating-filter": "Rating at least"
+    },
+    "file-upload": {
+      "text": "Drag & drop your image file here or click here to upload it.",
+      "text-added": "Great! Now click on the Add button",
+      "title": "Add Image",
+      "cancel": "Cancel",
+      "submit": "Confirm"
+    },
+    "review-list-item": {
+      "reviewed-at": "reviewed at {{date}}",
+      "date-of-visit": "<strong>Date of visit:</strong> {{date}}",
+      "delete-text": "Are you sure you want to delete the review?",
+      "delete-title": "Delete Review"
+    },
+    "simple-dialog": {
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    }
+  },
+  "enum": {
+    "role": {
+      "admin": "Admin",
+      "owner": "Owner",
+      "user": "User"
+    }
+  }
+}

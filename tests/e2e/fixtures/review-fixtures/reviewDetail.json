@@ -1,0 +1,13 @@
+{
+  "reviewId": 7,
+  "reviewRatingId": 4,
+  "owner": { "userId": 5, "firstName": "Tomas", "lastName": "Owner2", "imageLink": null },
+  "restaurantId": 1,
+  "ownerResponse": null,
+  "hasOwnerResponse": false,
+  "title": "Great experience in Unknown Bar",
+  "text": "We had a blast at Unknown Bar. Lots of fun and a great atmosphere!",
+  "created": "2020-09-24T17:42:58.952895",
+  "dateOfVisit": "2020-09-24T11:00:00",
+  "restaurantName": "Unknown Bar"
+}

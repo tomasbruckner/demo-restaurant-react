@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewPendingReply basic example 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "marginBottom": "32px",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Divider))
+    flexItem={true}
+    orientation="vertical"
+    style={
+      Object {
+        "marginLeft": "32px",
+        "marginRight": "32px",
+      }
+    }
+  />
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      component="h2"
+      gutterBottom={true}
+      variant="h4"
+    >
+      title
+    </WithStyles(ForwardRef(Typography))>
+    <RatingWrapper
+      averageRating={3}
+      canEdit={false}
+      t={[Function]}
+      text="component.review-pending-reply.review-date"
+    />
+    <WithStyles(ForwardRef(Typography))
+      component="p"
+      variant="body2"
+    >
+      reviewReply
+    </WithStyles(ForwardRef(Typography))>
+    <Connect(AddOrEditReviewReplyDialog)
+      restaurantId={1}
+      reviewId={1}
+      t={[Function]}
+    />
+  </div>
+</div>
+`;

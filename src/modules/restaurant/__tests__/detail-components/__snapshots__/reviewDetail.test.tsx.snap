@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewDetail basic example 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+>
+  <div
+    className="MuiCardContent-root"
+  >
+    <p
+      className="MuiTypography-root WithStyles(ForwardRef(Typography))-root-1 MuiTypography-body1"
+    >
+      component.review-detail.missing-positive
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewListItem basic example 1`] = `
+<WithStyles(WithStyles(ForwardRef(Card)))
+  variant="outlined"
+>
+  <WithStyles(ForwardRef(CardContent))
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <div>
+      <WithStyles(WithStyles(ForwardRef(Typography)))
+        variant="subtitle1"
+      >
+        <strong>
+          firstName lastName
+        </strong>
+      </WithStyles(WithStyles(ForwardRef(Typography)))>
+      <UserProfileImage
+        imageLink="imageLink"
+      />
+    </div>
+    <div>
+      <RatingWrapper
+        averageRating={2}
+        canEdit={false}
+        onDelete={[Function]}
+        onEdit={[Function]}
+        t={[Function]}
+        text="component.review-list-item.reviewed-at"
+      />
+      <SimpleDialog
+        isOpen={false}
+        onClose={[Function]}
+        onSubmit={[Function]}
+        t={[Function]}
+        text="component.review-list-item.delete-text"
+        title="component.review-list-item.delete-title"
+      />
+      <Connect(AddOrEditReviewDialog)
+        defaultRestaurantValues={
+          Object {
+            "created": "",
+            "dateOfVisit": "",
+            "hasOwnerResponse": true,
+            "owner": Object {
+              "firstName": "firstName",
+              "imageLink": "imageLink",
+              "lastName": "lastName",
+              "userId": 4,
+            },
+            "ownerResponse": Object {
+              "created": "",
+              "creatorId": 7,
+              "reviewId": 6,
+              "reviewReplyId": 5,
+              "text": "text",
+              "updated": "",
+            },
+            "restaurantId": 3,
+            "restaurantName": "restaurantName",
+            "reviewId": 1,
+            "reviewRatingId": 2,
+            "text": "text",
+            "title": "title",
+          }
+        }
+        hideButton={true}
+        isControlledOpen={false}
+        onOpenToggle={[Function]}
+        restaurantId={3}
+        t={[Function]}
+      />
+      <WithStyles(ForwardRef(Typography))
+        variant="h5"
+      >
+        title
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        variant="body1"
+      >
+        text
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        variant="subtitle1"
+      >
+         
+        <Component
+          components={
+            Object {
+              "strong": <strong />,
+            }
+          }
+          i18nKey="component.review-list-item.date-of-visit"
+          values={
+            Object {
+              "date": "",
+            }
+          }
+        />
+      </WithStyles(ForwardRef(Typography))>
+      <Connect(OwnerResponse)
+        canEdit={false}
+        review={
+          Object {
+            "created": "",
+            "dateOfVisit": "",
+            "hasOwnerResponse": true,
+            "owner": Object {
+              "firstName": "firstName",
+              "imageLink": "imageLink",
+              "lastName": "lastName",
+              "userId": 4,
+            },
+            "ownerResponse": Object {
+              "created": "",
+              "creatorId": 7,
+              "reviewId": 6,
+              "reviewReplyId": 5,
+              "text": "text",
+              "updated": "",
+            },
+            "restaurantId": 3,
+            "restaurantName": "restaurantName",
+            "reviewId": 1,
+            "reviewRatingId": 2,
+            "text": "text",
+            "title": "title",
+          }
+        }
+        t={[Function]}
+      />
+    </div>
+  </WithStyles(ForwardRef(CardContent))>
+</WithStyles(WithStyles(ForwardRef(Card)))>
+`;

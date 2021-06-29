@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OwnerResponse basic example 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16px;
+}
+
+<div
+  className="c0"
+>
+  <hr
+    className="MuiDivider-root WithStyles(ForwardRef(Divider))-root-1 MuiDivider-flexItem MuiDivider-vertical"
+  />
+  <div>
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      component.owner-response.title
+    </p>
+    <h6
+      className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-colorTextSecondary"
+    >
+      text
+    </h6>
+  </div>
+</div>
+`;

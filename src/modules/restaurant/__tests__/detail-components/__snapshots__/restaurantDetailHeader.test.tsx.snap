@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantDetailHeader basic example 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "createHref": [Function],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <RestaurantDetailHeader
+    dispatch={[Function]}
+    history={
+      Object {
+        "push": [Function],
+      }
+    }
+    i18n={Object {}}
+    location={Object {}}
+    match={Object {}}
+    restaurant={
+      Object {
+        "address": "address",
+        "averageRating": 4,
+        "contactPhone": "contactPhone",
+        "description": "description",
+        "hasCurrentUserReviewed": true,
+        "imageLink": "imageLink",
+        "name": "name",
+        "numberOfReviews": 3,
+        "ownerId": 2,
+        "restaurantId": 1,
+        "websiteUrl": "websiteUrl",
+      }
+    }
+    t={[Function]}
+    tReady={true}
+    user={
+      Object {
+        "created": "",
+        "email": "email@email",
+        "firstName": "firstName",
+        "imageLink": "string",
+        "lastName": "lastName",
+        "roleId": 2,
+        "userId": 1,
+      }
+    }
+  />
+</Router>
+`;

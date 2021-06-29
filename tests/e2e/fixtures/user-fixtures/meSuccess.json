@@ -1,0 +1,9 @@
+{
+  "userId": 4,
+  "roleId": 1,
+  "created": "2020-09-24T16:14:22.676458",
+  "imageLink": "/api/v1/images/cdd866b4-2b39-a343-3db6-60cf0901bcf2",
+  "firstName": "Tomas",
+  "lastName": "Admin",
+  "email": "tomasadmin@example.com"
+}

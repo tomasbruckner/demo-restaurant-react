@@ -1,0 +1,51 @@
+{
+  "size": 5,
+  "data": [
+    {
+      "userId": 4,
+      "roleId": 1,
+      "created": "2020-09-24T16:14:22.676458",
+      "imageLink": null,
+      "firstName": "Tomas",
+      "lastName": "Admin",
+      "email": "tomasadmin@example.com"
+    },
+    {
+      "userId": 1,
+      "roleId": 1,
+      "created": "2020-09-24T16:12:21.495544",
+      "imageLink": null,
+      "firstName": "Tomas",
+      "lastName": "Bruckner",
+      "email": "tomasbruckner@example.com"
+    },
+    {
+      "userId": 3,
+      "roleId": 2,
+      "created": "2020-09-24T16:14:06.998861",
+      "imageLink": null,
+      "firstName": "Tomas",
+      "lastName": "Owner",
+      "email": "tomasowner@example.com"
+    },
+    {
+      "userId": 5,
+      "roleId": 2,
+      "created": "2020-09-24T17:33:54.369493",
+      "imageLink": null,
+      "firstName": "Tomas",
+      "lastName": "Owner2",
+      "email": "tomasowner2@example.com"
+    },
+    {
+      "userId": 2,
+      "roleId": 3,
+      "created": "2020-09-24T16:13:52.519748",
+      "imageLink": null,
+      "firstName": "Tomas",
+      "lastName": "User",
+      "email": "tomasuser@example.com"
+    }
+  ],
+  "status": "ok"
+}

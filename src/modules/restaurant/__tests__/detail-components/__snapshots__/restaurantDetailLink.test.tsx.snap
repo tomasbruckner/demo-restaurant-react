@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantDetailLink basic example 1`] = `
+<a
+  href="/restaurant/1/restaurant"
+  onClick={[Function]}
+>
+  restaurant
+</a>
+`;

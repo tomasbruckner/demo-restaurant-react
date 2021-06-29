@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LastReviewItem basic example 1`] = `
+<LastReviewItem__StyledWrapper>
+  <ReviewDetail
+    data={
+      Object {
+        "created": "",
+        "dateOfVisit": "",
+        "hasOwnerResponse": true,
+        "owner": Object {
+          "firstName": "firstName",
+          "imageLink": "imageLink",
+          "lastName": "lastName",
+          "userId": 4,
+        },
+        "ownerResponse": Object {
+          "created": "",
+          "creatorId": 7,
+          "reviewId": 6,
+          "reviewReplyId": 5,
+          "text": "text",
+          "updated": "",
+        },
+        "restaurantId": 3,
+        "restaurantName": "restaurantName",
+        "reviewId": 1,
+        "reviewRatingId": 2,
+        "text": "text",
+        "title": "title",
+      }
+    }
+    t={[Function]}
+    withRestaurantLink={true}
+  />
+</LastReviewItem__StyledWrapper>
+`;
